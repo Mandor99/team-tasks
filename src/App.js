@@ -8,6 +8,7 @@ import 'materialize-css/dist/css/materialize.min.css';
 import M from 'materialize-css/dist/js/materialize.min.js';
 import CreateProjects from './pages/CreateProjects';
 import Navbar from './components/navbar/Navbar';
+import ProjectDetails from './pages/ProjectDetails';
 
 function App() {
   useEffect(() => {
@@ -26,6 +27,7 @@ function App() {
           <Route path='/login' component={LogIn}/>
           <Route path='/signup' component={SignUp}/>
           <Route path='/create' component={CreateProjects}/>
+          <Route path='/project/:id' component={ProjectDetails}/>
         </Switch>
       </Router>
 		</div>

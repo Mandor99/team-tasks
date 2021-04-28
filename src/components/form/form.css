@@ -1,0 +1,10 @@
+form {
+    padding: 1.5rem;
+    margin-top: 5%;
+}
+.form__heading, .form__btn {
+    text-transform: capitalize !important;
+}
+.form__btn {
+    font-size: 1.2rem !important;
+}
